@@ -8,6 +8,9 @@ describe('Hello World component', () => {
       global: {
         plugins: [ElementPlus],
       },
+      props: {
+        msg: 'Welcome'
+      }
     });
 
     expect(wrapper.html()).toMatchSnapshot();

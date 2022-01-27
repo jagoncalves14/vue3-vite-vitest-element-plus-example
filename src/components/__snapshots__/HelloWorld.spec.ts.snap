@@ -1,0 +1,52 @@
+// Vitest Snapshot v1
+
+exports[`Hello World component > should mount correctly 1`] = `
+"<h1>Welcome</h1>
+<p> See <a href=\\"https://element-plus.org\\" target=\\"_blank\\">element-plus</a> for more information. </p>
+<!-- example components -->
+<button class=\\"el-button el-button--default\\" type=\\"button\\">
+  <!--v-if--><span class=\\"\\">El Message</span>
+</button>
+<button class=\\"el-button el-button--primary el-button--default\\" type=\\"button\\">
+  <!--v-if--><span class=\\"\\">count is: 0</span>
+</button>
+<button class=\\"el-button el-button--success el-button--default\\" type=\\"button\\">
+  <!--v-if--><span class=\\"\\">count is: 0</span>
+</button>
+<button class=\\"el-button el-button--warning el-button--default\\" type=\\"button\\">
+  <!--v-if--><span class=\\"\\">count is: 0</span>
+</button>
+<button class=\\"el-button el-button--danger el-button--default\\" type=\\"button\\">
+  <!--v-if--><span class=\\"\\">count is: 0</span>
+</button>
+<button class=\\"el-button el-button--info el-button--default\\" type=\\"button\\">
+  <!--v-if--><span class=\\"\\">count is: 0</span>
+</button>
+<br>
+<div class=\\"el-input el-input--default\\" style=\\"width: 200px; margin: 20px;\\">
+  <!-- input -->
+  <!-- prepend slot -->
+  <!--v-if--><input class=\\"el-input__inner\\" type=\\"text\\" autocomplete=\\"off\\"><!-- prefix slot -->
+  <!--v-if-->
+  <!-- suffix slot -->
+  <!--v-if-->
+  <!-- append slot -->
+  <!--v-if-->
+</div>
+<span class=\\"el-tag el-tag--default el-tag--light\\"><span class=\\"el-tag__content\\">Tag 1</span>
+<!--v-if--></span>
+<br>
+<div class=\\"el-input el-input--default el-input--prefix el-input--suffix el-date-editor el-date-editor--date el-tooltip__trigger el-tooltip__trigger\\">
+  <!-- input -->
+  <!-- prepend slot -->
+  <!--v-if--><input class=\\"el-input__inner\\" name=\\"\\" type=\\"text\\" autocomplete=\\"off\\" placeholder=\\"Pick a day\\"><!-- prefix slot --><span class=\\"el-input__prefix\\"><span class=\\"el-input__prefix-inner\\"><i class=\\"el-icon el-input__icon\\"><svg class=\\"icon\\" width=\\"200\\" height=\\"200\\" viewBox=\\"0 0 1024 1024\\" xmlns=\\"http://www.w3.org/2000/svg\\"><path fill=\\"currentColor\\" d=\\"M128 384v512h768V192H768v32a32 32 0 11-64 0v-32H320v32a32 32 0 01-64 0v-32H128v128h768v64H128zm192-256h384V96a32 32 0 1164 0v32h160a32 32 0 0132 32v768a32 32 0 01-32 32H96a32 32 0 01-32-32V160a32 32 0 0132-32h160V96a32 32 0 0164 0v32zm-32 384h64a32 32 0 010 64h-64a32 32 0 010-64zm0 192h64a32 32 0 110 64h-64a32 32 0 110-64zm192-192h64a32 32 0 010 64h-64a32 32 0 010-64zm0 192h64a32 32 0 110 64h-64a32 32 0 110-64zm192-192h64a32 32 0 110 64h-64a32 32 0 110-64zm0 192h64a32 32 0 110 64h-64a32 32 0 110-64z\\"></path></svg></i><!--v-if--></span></span><!-- suffix slot --><span class=\\"el-input__suffix\\"><span class=\\"el-input__suffix-inner\\"><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span>
+  <!--v-if--></span><!-- append slot -->
+  <!--v-if-->
+</div>
+<!--teleport start-->
+<!--teleport end-->
+<p>For example, we can custom primary color to 'green'.</p>
+<p> Edit <code>components/HelloWorld.vue</code> to test components. </p>
+<p> Edit <code>styles/element/var.scss</code> to test scss variables. </p>
+<p> Full Example: <a href=\\"https://github.com/element-plus/element-plus-vite-starter\\" target=\\"_blank\\">element-plus-vite-starter</a> | On demand Example: <a href=\\"https://github.com/element-plus/unplugin-element-plus\\" target=\\"_blank\\">unplugin-element-plus/examples/vite</a></p>"
+`;

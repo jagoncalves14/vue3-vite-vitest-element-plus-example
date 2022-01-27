@@ -34,5 +34,8 @@ export default defineConfig({
     environment: 'jsdom',
     include: ['src/**/*.spec.ts'],
     exclude: ['node_modules', 'dist', 'src/**/*.stories.spec.ts'],
+    deps: {
+      inline: ['element-plus'],
+    },
   },
 });
